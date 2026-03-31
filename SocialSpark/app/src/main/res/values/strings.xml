@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Social Spark</string>
+    <string name="socialSpark">SOCIAL SPARK</string>
+    <string name="social_spark">SOCIAL SPARK</string>
+    <string name="socialSparkl">Social Spark</string>
+    <string name="socialSparkk">SOCIAL SPARK e=</string>
+    <string name="please_tools_layout_editor_absolutex">please tools:layout_editor_absoluteX=</string>
+    <string name="socialSparkkk">Social Spark</string>
+    <string name="timeInput">Enter time of day(Morning,Afternoon,Dinner..)</string>
+    <string name="resetButton">RESET</string>
+    <string name="suggestButton">LETS SOCIAL SPARK</string>
+</resources>
