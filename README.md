@@ -6,4 +6,4 @@ The app is bult in Android Studio, leveraging modern development practices:
 •	Language: Kotlin 
 •	Logic: Implementation of list-based questions handling and state management to track scores
 •	Navigation: Intent based transitions to move users from the active quiz environment to results display 
-The application guides users through introduction and navigation on the main screen, supports active participation on the quiz screen, and concludes with results analysis and review options on the score screen.”
+The application guides users through introduction and navigation on the main screen, supports active participation on the quiz screen, and concludes with results analysis and review options on the score screen.
