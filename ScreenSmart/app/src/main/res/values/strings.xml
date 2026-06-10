@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Screen Smart</string>
+    <string name="studentname">TextView</string>
+    <string name="screen_smart">Screen Smart</string>
+    <string name="name_and_student_number">Name and Student Number</string>
+    <string name="exit">Exit</string>
+    <string name="enter">ENTER</string>
+    <string name="enter_date">ENTER DATE</string>
+    <string name="morning_screen_time_mintes">Morning Screen time(mintes)</string>
+</resources>

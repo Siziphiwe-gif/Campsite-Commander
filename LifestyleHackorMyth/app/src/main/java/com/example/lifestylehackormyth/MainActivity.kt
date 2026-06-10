@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         butStart.setOnClickListener {
             //Start the new activity
-            val intent = Intent(this, QuizActivity::class.java)
+            val intent = Intent (this, QuizActivity::class.java)
         }
     }
 }

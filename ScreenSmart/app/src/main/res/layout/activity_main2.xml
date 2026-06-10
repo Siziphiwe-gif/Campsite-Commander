@@ -5,113 +5,105 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <EditText
-        android:id="@+id/editItemName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/enter_item_name"
-        android:importantForAutofill="no"
-        android:inputType="text"
-        android:minHeight="48dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textCurrentDate"
+        android:layout_width="90dp"
+        android:layout_height="71dp"
+        android:text="@string/enter_date"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.09" />
+        app:layout_constraintVertical_bias="0.057"
+        tools:ignore="TextSizeCheck" />
 
     <EditText
-        android:id="@+id/editCategory"
+        android:id="@+id/editMorning"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:height="48dp"
         android:ems="10"
-        android:hint="@string/textviewv"
+        android:hint="@string/morning_screen_time_mintes"
         android:importantForAutofill="no"
         android:inputType="text"
         android:minHeight="48dp"
         android:textColorHint="#546E7A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.796"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.248" />
+        app:layout_constraintVertical_bias="0.144" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editAfternoon"
+        android:layout_width="301dp"
+        android:layout_height="41dp"
+        android:hint="@string/afternoon_screen_time_mintues"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.278" />
 
     <EditText
-        android:id="@+id/editComment"
+        android:id="@+id/editNotes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:autofillHints=""
         android:ems="10"
-        android:hint="@string/enter_comment"
+        android:hint="activity notes (eg,Watched lectures)"
+        android:importantForAutofill="no"
         android:inputType="text"
         android:minHeight="48dp"
         android:textColorHint="#546E7A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.402" />
-
-    <EditText
-        android:id="@+id/editQuantity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="@string/textviewv"
-        android:importantForAutofill="no"
-        android:inputType="number"
-        android:minHeight="48dp"
-        android:textColorHint="#546E7A"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.53" />
+        app:layout_constraintVertical_bias="0.438" />
 
     <Button
-        android:id="@+id/btnAddToList"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/add_to_packing_list"
-        android:textColorLink="#230DCA"
+        android:id="@+id/btnSave"
+        android:layout_width="221dp"
+        android:layout_height="67dp"
+        android:shadowColor="#D52222"
+        android:text="Save day"
+        android:textColorLink="#2196F3"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintHorizontal_bias="0.442"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701" />
+        app:layout_constraintVertical_bias="0.552" />
 
     <Button
-        android:id="@+id/btnNextScreen"
-        android:layout_width="138dp"
-        android:layout_height="61dp"
-        android:text="@string/view_details"
-        android:textStyle="bold"
+        android:id="@+id/btnClear"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:text="Clear All"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.679"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.804" />
+        app:layout_constraintVertical_bias="0.743" />
 
     <Button
-        android:id="@+id/btnExitApp"
+        android:id="@+id/btnDetailedView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/exit"
-        android:textStyle="bold"
+        android:text="View details "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintHorizontal_bias="0.302"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904" />
+        app:layout_constraintVertical_bias="0.885" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

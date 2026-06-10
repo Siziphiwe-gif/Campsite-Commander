@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Parking list app</string>
+    <string name="textviewv">TextView</string>
+    <string name="clothing_eg_shoes">clothing eg shoes</string>
+    <string name="enter_item_name">Enter Item Name</string>
+    <string name="enter_comment">Enter Comment</string>
+    <string name="btnAddToList">Button</string>
+    <string name="add_to_packing_list">Add to Packing List</string>
+    <string name="view_details">View Details</string>
+    <string name="exit">Exit</string>
+    <string name="textview">TextView</string>
 </resources>

@@ -12,8 +12,8 @@ class QuizActivity : AppCompatActivity() {
     //list of questions
     private val hacks = listOf(
         Hack(
-            statement = "Paint both sides of a key head with nail polish.", isTrue = true,
-            explanation = "Helps to identify your keys at a glance"
+            "Paint both sides of a key head with nail polish.",  true,
+             "Helps to identify your keys at a glance"
         ),
         Hack(
             statement = "Use a string from a old pen for your charger.", isTrue = true,
